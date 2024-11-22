@@ -1,0 +1,42 @@
+{"level":"error","message":"Unable to connect to database: ������������ \"user\" �� ������ �������� ����������� (�� ������)","name":"SequelizeConnectionError","original":{"code":"28P01","file":"auth.c","length":116,"line":"329","name":"error","routine":"auth_failed","severity":"�����"},"parent":{"code":"28P01","file":"auth.c","length":116,"line":"329","name":"error","routine":"auth_failed","severity":"�����"},"stack":"SequelizeConnectionError: ������������ \"user\" �� ������ �������� ����������� (�� ������)\n    at Client._connectionCallback (C:\\Users\\User\\Desktop\\EffectiveMobile\\history-service\\node_modules\\sequelize\\src\\dialects\\postgres\\connection-manager.js:196:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\User\\Desktop\\EffectiveMobile\\history-service\\node_modules\\pg\\lib\\client.js:326:19)\n    at Client._handleErrorMessage (C:\\Users\\User\\Desktop\\EffectiveMobile\\history-service\\node_modules\\pg\\lib\\client.js:346:19)\n    at Connection.emit (node:events:518:28)\n    at C:\\Users\\User\\Desktop\\EffectiveMobile\\history-service\\node_modules\\pg\\lib\\connection.js:116:12\n    at Parser.parse (C:\\Users\\User\\Desktop\\EffectiveMobile\\history-service\\node_modules\\pg-protocol\\src\\parser.ts:103:9)\n    at Socket.<anonymous> (C:\\Users\\User\\Desktop\\EffectiveMobile\\history-service\\node_modules\\pg-protocol\\src\\index.ts:7:48)\n    at Socket.emit (node:events:518:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)","timestamp":"2024-11-19T19:06:39.786Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-19T19:31:42.064Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-19T19:31:42.068Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-20T08:33:47.269Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-20T08:33:47.274Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-20T08:50:16.806Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-20T08:50:16.811Z"}
+{"level":"info","message":"Event created: 1","timestamp":"2024-11-20T08:50:36.571Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-20T08:53:08.661Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-20T08:53:08.669Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-20T08:59:08.749Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-20T08:59:08.755Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-20T09:01:19.990Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-20T09:01:19.994Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-21T18:27:03.363Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-21T18:27:03.368Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-21T18:56:34.176Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-21T18:56:34.179Z"}
+{"level":"info","message":"Event created: 1","timestamp":"2024-11-21T18:57:17.793Z"}
+{"level":"info","message":"Event created: 2","timestamp":"2024-11-21T19:02:33.985Z"}
+{"level":"info","message":"Event created: 3","timestamp":"2024-11-21T19:05:10.505Z"}
+{"level":"info","message":"Event created: 4","timestamp":"2024-11-21T19:06:06.490Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-22T19:06:22.745Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-22T19:06:22.751Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-22T19:09:01.165Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-22T19:09:01.172Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-22T19:11:09.286Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-22T19:11:09.362Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-22T19:11:53.241Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-22T19:11:53.245Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-22T19:15:21.472Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-22T19:15:21.476Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-22T19:22:08.477Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-22T19:22:08.482Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-22T19:24:45.047Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-22T19:24:45.051Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-22T19:26:43.145Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-22T19:26:43.150Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-22T19:27:30.249Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-22T19:27:30.253Z"}
+{"level":"info","message":"Connected to database","timestamp":"2024-11-22T19:29:49.045Z"}
+{"level":"info","message":"History service is running on port 3001","timestamp":"2024-11-22T19:29:49.049Z"}

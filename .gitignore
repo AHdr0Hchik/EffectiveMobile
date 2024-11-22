@@ -1,0 +1,9 @@
+/user-service/dist
+/user-service/node_modules
+/user-service/package-lock.json
+/history-service/dist
+/history-service/node_modules
+/history-service/package-lock.json
+/products-service/node_modules
+/products-service/package-lock.json
+
