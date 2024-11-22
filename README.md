@@ -5,10 +5,23 @@ PostgreSQL версии 15+
 
 Запуск проектов:
 
+git clone https://github.com/AHdr0Hchik/EffectiveMobile
+
 # products-service:
+
+cd products-service
 
 Установка зависимостей
 npm install
+
+Отредактируйте `.env` файл:
+```env
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=your_db_name
+DB_PASSWORD=your_password
+DB_NAME=products-service
+```
 
 Запуск миграций
 npm run migrate
@@ -17,6 +30,9 @@ npm run migrate
 npm run start
 
 # history-service:
+
+cd history-service
+
 Установка зависимостей
 npm install
 
@@ -24,9 +40,9 @@ npm install
 ```env
 DB_HOST=localhost
 DB_PORT=5432
-DB_USERNAME=postgres
+DB_USERNAME=your_db_name
 DB_PASSWORD=your_password
-DB_NAME=user_service
+DB_NAME=history-service
 ```
 
 Запуск миграций
@@ -38,7 +54,18 @@ npm run build
 Запуск сервиса
 npm run start
 
-user-service:
+# user-service:
+
+cd user-service
+ 
+### Отредактируйте `.env` файл:
+```env
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=your_db_name
+DB_PASSWORD=your_password
+DB_NAME=-effectivemobile-userservice
+```
 
 ### Вариант 1: Через Docker (рекомендуется)
 
