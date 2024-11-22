@@ -1,23 +1,23 @@
-Требования для запуска:
+# Требования для запуска:
 
 Node.js версии 20+
 PostgreSQL версии 15+
 
 Запуск проектов:
 
-products-service:
+# products-service:
 
-# Установка зависимостей
+Установка зависимостей
 npm install
 
-# Запуск миграций
+Запуск миграций
 npm run migrate
 
-# Запуск сервиса
+Запуск сервиса
 npm run start
 
-history-service:
-# Установка зависимостей
+# history-service:
+Установка зависимостей
 npm install
 
 Отредактируйте `.env` файл:
@@ -29,13 +29,13 @@ DB_PASSWORD=your_password
 DB_NAME=user_service
 ```
 
-# Запуск миграций
+Запуск миграций
 npm run migrate
 
-# Сборка проекта
+Сборка проекта
 npm run build
 
-# Запуск сервиса
+Запуск сервиса
 npm run start
 
 user-service:
