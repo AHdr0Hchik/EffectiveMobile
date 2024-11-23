@@ -17,7 +17,7 @@ cd products-service
 psql -U postgres
 
 # В psql выполните:
-CREATE DATABASE products-service;
+CREATE DATABASE effectivemobile_products;
 \q
 ```
 
@@ -31,21 +31,21 @@ npm install
   "development": {
     "username": "your_username",
     "password": "your_password",
-    "database": "effectivemobile-products",
+    "database": "effectivemobile_products",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "your_username",
     "password": "your_password",
-    "database": "effectivemobile-products",
+    "database": "effectivemobile_products",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
     "username": "your_username",
     "password": "your_password",
-    "database": "effectivemobile-products",
+    "database": "effectivemobile_products",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
@@ -68,7 +68,7 @@ cd history-service
 psql -U postgres
 
 # В psql выполните:
-CREATE DATABASE history-service;
+CREATE DATABASE effectivemobile_history;
 \q
 ```
 
@@ -81,7 +81,7 @@ DB_HOST=localhost
 DB_PORT=5432
 DB_USERNAME=your_db_name
 DB_PASSWORD=your_password
-DB_NAME=effectivemobile-history
+DB_NAME=effectivemobile_history
 ```
 
 Запуск миграций
@@ -103,7 +103,7 @@ DB_HOST=localhost
 DB_PORT=5432
 DB_USERNAME=your_db_name
 DB_PASSWORD=your_password
-DB_NAME=effectivemobile-userservice
+DB_NAME=effectivemobile_userservice
 ```
 
 ### Вариант 1: Через Docker (рекомендуется)
@@ -126,7 +126,7 @@ docker-compose exec app npx sequelize-cli db:migrate
 psql -U postgres
 
 # В psql выполните:
-CREATE DATABASE effectivemobile-userservice;
+CREATE DATABASE effectivemobile_userservice;
 \q
 ```
 -
