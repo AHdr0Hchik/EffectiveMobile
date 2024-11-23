@@ -34,12 +34,8 @@ export class UsersService {
       const users = Array(batchSize)
         .fill(null)
         .map(() => ({
-          firstName: ['John', 'Jane', 'Mike', 'Sarah'][
-            Math.floor(Math.random() * 4)
-          ],
-          lastName: ['Smith', 'Johnson', 'Williams', 'Brown'][
-            Math.floor(Math.random() * 4)
-          ],
+          firstName: ['Андрей', 'Роман', 'Николай', 'Алексей', 'Дмитрий'][Math.floor(Math.random() * 5)],
+          lastName: ['Хоменко', 'Ахмадеев', 'Прохоренко', 'Юрьев'][Math.floor(Math.random() * 4)],
           age: Math.floor(Math.random() * 50) + 18,
           gender: Math.random() > 0.5 ? 'male' : 'female',
           hasProblems: Math.random() > 0.5,
