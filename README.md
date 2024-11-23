@@ -108,6 +108,8 @@ DB_NAME=effectivemobile-userservice
 
 ### Вариант 1: Через Docker (рекомендуется)
 
+в случае, если порт 5432 занят, поменяйте его на другой в docker-compose.yml и в .env-файле
+
 ```powershell
 # Запуск контейнеров
 docker-compose up --build

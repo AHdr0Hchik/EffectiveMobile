@@ -5,10 +5,10 @@ services:
       - "3000:3000"
     environment:
       - DB_HOST=postgres
-      - DB_PORT=5432
+      - DB_PORT=5433
       - DB_USERNAME=root
       - DB_PASSWORD=password
-      - DB_NAME=effectivemobile-userservice
+      - DB_NAME=effectivemobile_userservice
     env_file:
       - .env
     depends_on:
@@ -19,7 +19,7 @@ services:
   postgres:
     image: postgres:15
     ports:
-      - "5432:5432"
+      - "5433:5432"
     environment:
       - POSTGRES_USER=${DB_USERNAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
